@@ -4,13 +4,12 @@
       <meta charset="utf-8">
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Johannes Bagdenand - A Python Developer in the rise</title>
+      <title>Johannes Bagdenand - A Python Developer on the rise</title>
       <link rel="icon" href="./static/assets/favicon.ico">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
       <link rel="stylesheet" href="./static/scribbler-global.css">
       <link rel="stylesheet" href="./static/scribbler-landing.css">
+	<link rel="stylesheet" type="text/css" href="./static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/main.css">
       <link rel="author" href="humans.txt">
   </head>
   <body>
@@ -21,12 +20,11 @@
         <li class="menu__item"><a href="https://www.linkedin.com/in/johannes-bagdenand" class="link link--dark"><i class="fa fa-linkedin"></i> Linkedin</a></li>
         <li class="menu__item"><a href="https://github.com/bagdenaj" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
         <div class="menu__item toggle"><span></span></div>
-        <li class="menu__item"><a href="contact.html" class="link link--dark"><i class="fa fa-envelope"></i> Contact</a></li>
       </ul>
     </nav>
     <div class="hero">
-      <h1 class="hero__title">Johannes Bagdenand</h1>
-      <p class="hero__description">Python Developer in the rise</p>
+      <h1 class="hero__title">Johannes Bagdenand</h1><br>
+      <p class="hero__description">Python Developer on the rise</p>
     </div>
     <div class="hero__terminal">
       <pre id="typewriter">
@@ -35,130 +33,160 @@
           personal_data <span class="var-highlight">=</span> {
           &emsp;&emsp;'name': <span class="string-highlight">'Johannes Bagdenand'</span>
           &emsp;&emsp;'date of bith': <span class="string-highlight">'14.06.1991'</span>
-          &emsp;&emsp;'location': <span class="string-highlight">'Böhmische Straße 9, 12055 Berlin'</span>
+          &emsp;&emsp;'location': <span class="string-highlight">'Berlin'</span>
+          &emsp;&emsp;'profession': <span class="string-highlight">'Python Developer'</span>
           &emsp;&emsp;'resume': <span class="string-highlight">'changelog'</span>
           }
 
-          <span class="def-highlight">def</span> <span class="func-highlight">hire_me</span>(requirements, personal_data):
+          <span class="def-highlight">def</span> <span class="func-highlight">is_fit</span>(requirements, personal_data):
           &emsp;&emsp;<span class="var-highlight">if</span> personal_data <span class="var-highlight">==</span> requirements:
-          &emsp;&emsp;&emsp;&emsp;<span class="var-highlight">return</span> <span class="string-highlight">'Hired!'</span>
+          &emsp;&emsp;&emsp;&emsp;<span class="var-highlight">return</span> <span class="string-highlight">'Yeah!'</span>
           &emsp;&emsp;<span class="var-highlight">else</span>:
-          &emsp;&emsp;&emsp;&emsp;<span class="var-highlight">return</span> <span class="string-highlight">'Sorry, you are just not our type.'</span>
+          &emsp;&emsp;&emsp;&emsp;<span class="var-highlight">return</span> <span class="string-highlight">'Sorry, maybe next time.'</span>
 
-          <span class="var-highlight">print</span>(hire_me(requirements, personal_data))</code>
+          <span class="var-highlight">if</span> __name__ <span class="var-highlight">==</span> <span class="string-highlight">'__main__'</span>:
+          &emsp;&emsp;<span class="var-highlight">print</span>(is_fit(requirements, personal_data))</code>
       </pre>
     </div>
     <div class="wrapper">
-      <div class="installation">
-        <h3 class="section__title">How to run hire_me.py</h3>
-        <div class="tab__container">
-          <ul class="tab__menu">
-            <li class="tab active" data-tab="mac">mac</li>
-            <li class="tab" data-tab="linux">linux</li>
-            <li class="tab" data-tab="win">win</li>
-          </ul>
-          <pre class="nohighlight code">
-            <code class="tab__pane active mac">$  python hire_me.py</code>
-            <code class="tab__pane linux">$  python hire_me.py</code>
-            <code class="tab__pane win">$  python3 hire_me.py</code>
-          </pre>
-        </div>
-      </div>
       <div class="feature">
         <div class="feature__item">
           <h3 class="section__title">Fast & Light</h3>
-          <p>Start writing your notes immediately in any terminal! No more time wasted on navigating and opening your text editor.</p>
+          <p>I am very focused on learning new things and interacting with team members. I taught myself Python within a year.</p>
         </div>
         <div class="feature__item">
-          <h3 class="section__title">File Syncing</h3>
-          <p>Save your file in Dropbox then you can access to it from anywhere.</p>
+          <h3 class="section__title">Reliable & Structered</h3>
+          <p>Taking care of two kids for more than one and a half year and working in a StartUp taught me to keep things organized and on schedule.</p>
         </div>
         <div class="feature__item">
-          <h3 class="section__title">Secure</h3>
-          <p>Encrypt your notes optionally. No one can get to your secrets! </p>
+          <h3 class="section__title">Brain full of things</h3>
+          <p>My broad interest in and knowledge of things enables me to find creative solutions and new perspectives to problems</p>
         </div>
         <div class="feature__item">
-          <h3 class="section__title">Configuration</h3>
-          <p>Maintain all your settings in a single <span class="code code--inline">config.json</span> file. Never need to redo the setting every single time jotting down a note.</p>
+          <h3 class="section__title">Detail Oriented</h3>
+          <p>Once I get the broad overview of things, I really like to go into the detail of understanding things, improving them from the bottum up.</p>
         </div>
         <div class="feature__item">
-          <h3 class="section__title">Highlightings</h3>
-          <p>For better readability, scribbler has a clean, beautiful color scheme allow you to scan files fast.</p>
+          <h3 class="section__title">Passionate</h3>
+          <p>If you get me on your side, I will go out of my way to see you succeeding.</p>
         </div>
         <div class="feature__item">
-          <h3 class="section__title">Keybindings</h3>
-          <p>You can expect common keybindings for scribbler. Customize <span class="code code--inline">bindings.json</span> for your own liking! </p>
+          <h3 class="section__title">Stress Resistant</h3>
+          <p>Although in a fast moving enviroment, I am able to keep a healthy and sustainable pace to contribute long term.</p>
         </div>
       </div>
       <div class="keybinding">
         <ul class="keybinding__detail">
-          <h3 class="keybinding__title">Default Keybindings</h3>
-          <li>Quit without saving <span class="keybinding__label">Ctrl+C</span></li>
-          <li>Save <span class="keybinding__label">Cmd+S</span></li>
-          <li>Save and Quit <span class="keybinding__label">Ctrl+D</span></li>
-          <li>Undo <span class="keybinding__label">Cmd+Z</span></li>
+          <h3 class="keybinding__title">What I want to learn</h3>
+          <li>C, JS and kubernetes</li>
+          <li>Green computing</li>
+          <li>Make a really satisfying soup</li>
+          <li>Do a proper handstand</li>
         </ul>
         <ul class="keybinding__detail">
-          <h3 class="keybinding__title">Markdown Keybindings</h3>
-          <li><span class="keybinding__label">Ctrl+A</span> Insert Link Markdown</li>
-          <li><span class="keybinding__label">Ctrl+I</span> Insert Image Markdown</li>
-          <li><span class="keybinding__label">Ctrl+V</span> Insert YouTube Video</li>
-          <li><span class="keybinding__label">Ctrl+T</span> Insert Table</li>
+          <h3 class="keybinding__title">When I am functioning best</h3>
+          <li>In an honest, democratic enviroment</li>
+          <li>In an quite space, looking at green</li>
+          <li>Learing new, saucy things</li>
+          <li>Reqular breaks connected with excerise</li>
         </ul>
       </div>
       <div class="callout">
-        <p>Read our documentation for advanced keybindings and customization</p>
-        <a href="doc.html" class="button--primary">Documentation</a>
+        <h2 class="section-title">Projects</h2>
+        <p>See what I made and am currently doing:</p>
+        <a href="doc.html" class="button--primary">Projects</a>
       </div>
     </div>
+
+    <div class="container-contact100">
+		<div class="wrap-contact100">
+			<form action="submit_form" method="POST" class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Say <span class="string-highlight">'hello johannes'</span>
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" id="name" type="text" name="name" placeholder="Name">
+					<label class="label-input100" for="name">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input class="input100" id="email" type="text" name="email" placeholder="Email">
+					<label class="label-input100" for="email">
+						<span class="lnr lnr-envelope"></span>
+					</label>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Phone is required">
+					<input class="input100" id="phone" type="text" name="phone" placeholder="Phone">
+					<label class="label-input100" for="phone">
+						<span class="lnr lnr-phone-handset"></span>
+					</label>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<textarea class="input100" name="message" placeholder="Your message..."></textarea>
+				</div>
+
+                <div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn">
+							Commit
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
     <div class="changelog">
       <div class="wrapper">
         <h3 class="section__title">Changelog</h3>
         <div class="changelog__item">
           <div class="changelog__meta">
             <h4 class="changelog__title">v0.7</h4>
-            <small class="changelog__date">10/12/2017</small>
+            <small class="changelog__date">01/10/2020</small>
           </div>
           <div class="changelog__detail">
             <ul>
-              <li>Improving the writing workflow with better key bindings</li>
-              <li>Design updates</li>
-              <li>SSL Verification for web hooks</li>
-              <li>Render Emoji</li>
+              <li>Improving knowledge of Python with ZTM Course</li>
+              <li>Starting to make own projects</li>
             </ul>
           </div>
-        </div>
+        </div><br>
         <div class="changelog__item">
           <div class="changelog__meta">
             <h4 class="changelog__title">v0.6</h4>
-            <small class="changelog__date">7/30/2017</small>
+            <small class="changelog__date">18/09/2019</small>
           </div>
           <div class="changelog__detail">
             <ul>
-              <li>Adding Unicode support</li>
-              <li>Basic text highlighting</li>
-              <li>Fresh Design</li>
+              <liStarting my parental leave</li>
+              <li>Improving organisation skills and stress resilience</li>
+              <li>Lacking a lot of sleep</li>
             </ul>
           </div>
-        </div>
+        </div><br>
         <div class="changelog__item">
           <div class="changelog__meta">
             <h4 class="changelog__title">v0.5</h4>
-            <small class="changelog__date">5/10/2017</small>
+            <small class="changelog__date">13/10/2016</small>
           </div>
           <div class="changelog__detail">
             <ul>
-              <li>Save default md file in new folders</li>
-              <li>Ability to quick search on existing notes</li>
+              <li>Finishing Bachelors Degree in Biopyhsics</li>
+              <li>Starting Masters Degree in physical Engineering</li>
             </ul>
           </div>
         </div>
         <div class="changelog__callout">
-          <a href="#" class="button--secondary">Checkout Full Log</a>
+          <a href="./static/lebenslauf_johannes_bagdenand.pdf" class="button--secondary">Checkout Full Log</a>
         </div>
       </div>
     </div>
-    <footer class="footer">Scribbler is a free HTML template created exclusively for <a href="https://tympanus.net/codrops/" target="_blank" class="link link--light">Codrops</a>.</footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="./static/scribbler.js"></script>
